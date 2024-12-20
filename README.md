@@ -25,5 +25,5 @@ $ ros2 action send_goal /order action_interfaces/action/Order “{orders: [num1,
 ### num1, num2, num3, num4 부분에 1~4의 숫자 대입, 최대 8개 가능
 
 ### 실행 예시
-ros2 action send_goal /order action_interfaces/action/Order “{orders: [1, 2, 1, 3]}”
+$ ros2 action send_goal /order action_interfaces/action/Order “{orders: [1, 2, 1, 3]}”
 ~~~
