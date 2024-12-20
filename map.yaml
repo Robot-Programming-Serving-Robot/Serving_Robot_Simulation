@@ -1,4 +1,4 @@
-image: /home/sjxna20/map.pgm
+image: /home/hwlee20/Serving_Robot_Simulation/map.pgm
 mode: trinary
 resolution: 0.05
 origin: [-3.31, -3.83, 0]
