@@ -4,7 +4,7 @@
 Ubuntu 20.04 Foxy
 
 ## 주의 사항
-map.yaml 파일 내부의 image: /home/경로에 맞게 수정/Serving_Robot_Simulation/map.pgm
+map.yaml 파일 내부의 image: /home/@username/Serving_Robot_Simulation/map.pgm
 
 만약 gazebo error시 다음 코드 터미널에 입력
 ~~~
