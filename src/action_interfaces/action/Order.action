@@ -1,0 +1,5 @@
+int32[] orders
+---
+bool is_success
+---
+int32[] remain_points
