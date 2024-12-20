@@ -34,6 +34,5 @@ $ ros2 action send_goal /order action_interfaces/action/Order “{orders: [num1,
 ### 실행 예시
 $ ros2 action send_goal /order action_interfaces/action/Order "{orders: [1, 2, 4, 4, 6, 1]}"
 또는
-$ ros2 run order_action order_action_client
-[1, 2, 3, 4]
+$ ros2 run order_action order_action_client # [1, 2, 3, 4] 실행
 ~~~
