@@ -32,5 +32,8 @@ $ ros2 action send_goal /order action_interfaces/action/Order “{orders: [num1,
 ### num1, num2, num3, num4 부분에 1~4의 숫자 대입, 짝수개만 입력
 
 ### 실행 예시
-$ ros2 action send_goal /order action_interfaces/action/Order “{orders: [1, 2, 1, 3]}”
+$ ros2 action send_goal /order action_interfaces/action/Order "{orders: [1, 2, 4, 4, 6, 1]}"
+또는
+$ ros2 run order_action order_action_client
+[1, 2, 3, 4]
 ~~~
